@@ -46,10 +46,16 @@
                 </div>
 
                 <div class="right-column">
-                    <div id="preview">
-                        <h3>What I Do</h3>
-                        <p>I was a meme watcher, now grown up and
-                            looking for a job.</p>
+                    <div id="preview-shadow">
+                   
+                        <div id="preview">
+                            <div id="corner-tl" class="corner"></div>
+                            <div id="corner-tr" class="corner"></div>
+                            <h3>What I Do</h3>
+                            <p>I was a meme watcher, But one day reality hit hard and now I'm looking for a job</p>
+                            <div id="corner-br" class="corner"></div>
+                            <div id="corner-bl" class="corner"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -58,19 +64,122 @@
     </section>
     <section class="s2">
         <div class="main-container">
-            About
+
+            <div class="about-wrapper">
+                <div class="about-me">
+                    <h4>More about me</h4>
+
+                    <p>I build new projects just to tickle my brain and I enjoy teaching others how they're made.</p>
+
+                    <p>While I keep busy exploring new things, I still take interviews in search of a great team & projects that interests me.</p>
+                    
+                
+
+                    <hr>
+
+                    <h4>TOP EXPERTISE</h4>
+
+                    <p>full stack web developer with focus on Django +
+                        React:<a target="_blank" href="resume.pdf">Download
+                            resume</a></p>
+                
+
+                    <div id="skills">
+                        <ul>
+                            <li>Python</li>
+                            <li>C</li>
+                            <li>JavaScript</li>
+                            <li>SQL</li>
+                            <li>Django</li>
+                        </ul>
+
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JS Charts</li>
+                            <li>PHP</li>
+                            <li>React</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div class="social-links">
+                    <img id="social_img" src="images/deepp.jpeg">
+                    <h3>Find me on Instagram & Twitter</h3>
+                    <div class="image-links">
+                        <a target="_blank" href="#"><img id="social-icons" src="images/instagram.png"></a>
+                        <br>
+                        <a target="_blank" href="https://twitter.com/deepakrajsrs"><img id="social-icons" src="images/twitter.png"></a>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </section>
 
     <section class="s1">
         <div class="main-container">
-            Portfolio
+            <h3 style="text-align: center;">Some of my past projects</h3>
+
+            <div class="post-wrapper">
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/dp.jpg">
+                        <div class="post-preview">
+                            <h6 class="post-title">Post Title</h6>
+                            <p class="post-intro">this is a sentence. some more text</p>
+                            <a href="project_1.html">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/dp.jpg">
+                        <div class="post-preview">
+                            <h6 class="post-title">Post Title</h6>
+                            <p class="post-intro">this is a sentence.can fill this later  some more text</p>
+                            <a href="project_2.html">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/dp.jpg">
+                        <div class="post-preview">
+                            <h6 class="post-title">Post Title</h6>
+                            <p class="post-intro">this is a sentence. some more text</p>
+                            <a href="project_3.html">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <section class="s2">
         <div class="main-container">
-            Contact
+            <h3 style="text-align: center;">Get In Touch</h3>
+
+            <form id="contact-form">
+                <label>Name</label>
+                <input class="input-field" type="text" name="name">
+
+                <label>Subject</label>
+                <input class="input-field" type="text" name="subject">
+
+                <label>Email</label>
+                <input class="input-field" type="email" name="email">
+
+                <label>Message</label>
+                <textarea class="input-field" name="message"></textarea>
+
+
+                <input id="submit-btn" type="submit" value="Send">
+            </form>
         </div>
     </section>
 
